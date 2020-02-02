@@ -1,4 +1,4 @@
-package com.quan.controller;
+package com.quan.controller.portal;
 
 import com.quan.common.Const;
 import com.quan.common.ResponseCode;

@@ -47,7 +47,38 @@
     from mmall_product
     where id = #{id,jdbcType=INTEGER}
   </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    <select id="selectList" resultType="com.quan.pojo.Product">
+      SELECT <include refid="Base_Column_List"></include> from mmall_product order by id asc
+    </select>
+
+  <select id="selectByNameAndProductId" resultType="com.quan.pojo.Product" parameterType="map">
+        SELECT
+        <include refid="Base_Column_List"></include>
+        from mmall_product
+        where 1 = 1
+        <if test="productName != null">
+            and name like #{productName}
+        </if>
+        <if test="productId != null">
+            and id = #{productId}
+        </if>
+  </select>
+    <select id="selectByNameAndCategoryIds" resultType="com.quan.pojo.Product" parameterType="map">
+        select
+        <include refid="Base_Column_List"></include>
+        from mmall_product
+        where status = 1
+        <if test="productName != null">
+            and name Like #{productName}
+        </if>
+        <if test="categoryIdList != null">
+          and category_id in
+          <foreach item="item" index="index" open="(" separator="," close=")" collection="categoryIdList">
+            #{item}
+          </foreach>
+        </if>
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from mmall_product
     where id = #{id,jdbcType=INTEGER}
   </delete>

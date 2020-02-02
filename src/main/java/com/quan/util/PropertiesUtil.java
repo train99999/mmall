@@ -16,6 +16,7 @@ public class PropertiesUtil {
 
     private static Properties props;
 
+    // 读取配置文件 mmall.properties
     static {
         String fileName = "mmall.properties";
         props = new Properties();
@@ -42,7 +43,4 @@ public class PropertiesUtil {
         }
         return value.trim();
     }
-
-
-
 }
