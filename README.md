@@ -1,3 +1,5 @@
 mmall
-.gitignore 文件：匹配上的文件不会推送的github
+.gitignore 文件：匹配上的文件不会推送到github
 分支开发，主干发布
+
+mybatis中useGeneratedKeys和keyProperty的作用 ：主要是在主键是自增的情况下，添加成功后可以直接使用主键值，其中keyProperty的值是对象的属性值不是数据库表中的字段名

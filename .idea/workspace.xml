@@ -7,18 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ac660a5-2a18-4975-beb1-21c8cbf95ebc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quan/controller/portal/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quan/service/ICartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quan/service/impl/CartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quan/util/BigDecimalUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quan/vo/CartProductVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/quan/vo/CartVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quan/controller/portal/ShippingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quan/service/IShippingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/quan/service/impl/ShippingServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quan/common/Const.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quan/common/Const.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quan/dao/CartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quan/dao/CartMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quan/pojo/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quan/pojo/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quan/dao/ShippingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quan/dao/ShippingMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +189,7 @@
       <workItem from="1580608656217" duration="7126000" />
       <workItem from="1580618482472" duration="483000" />
       <workItem from="1580619735089" duration="14084000" />
-      <workItem from="1580693842997" duration="7312000" />
+      <workItem from="1580693842997" duration="17877000" />
     </task>
     <task id="LOCAL-00001" summary="xx">
       <created>1580108926109</created>
@@ -280,70 +275,70 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="791" y="111" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580696212089" />
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom" timestamp="1580652179520">
+    <state width="1323" height="382" key="GridCell.Tab.0.bottom" timestamp="1580716184782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580652179520" />
-    <state width="1323" height="191" key="GridCell.Tab.0.center" timestamp="1580652179520">
+    <state width="1323" height="382" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580716184782" />
+    <state width="1323" height="382" key="GridCell.Tab.0.center" timestamp="1580716184781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580652179520" />
-    <state width="1323" height="191" key="GridCell.Tab.0.left" timestamp="1580652179520">
+    <state width="1323" height="382" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580716184781" />
+    <state width="1323" height="382" key="GridCell.Tab.0.left" timestamp="1580716184781">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580652179520" />
-    <state width="1323" height="191" key="GridCell.Tab.0.right" timestamp="1580652179520">
+    <state width="1323" height="382" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580716184781" />
+    <state width="1323" height="382" key="GridCell.Tab.0.right" timestamp="1580716184782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580652179520" />
-    <state width="1323" height="191" key="GridCell.Tab.1.bottom" timestamp="1580652179521">
+    <state width="1323" height="382" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580716184782" />
+    <state width="1323" height="382" key="GridCell.Tab.1.bottom" timestamp="1580716184782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580652179521" />
-    <state width="1323" height="191" key="GridCell.Tab.1.center" timestamp="1580652179520">
+    <state width="1323" height="382" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580716184782" />
+    <state width="1323" height="382" key="GridCell.Tab.1.center" timestamp="1580716184782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580652179520" />
-    <state width="1323" height="191" key="GridCell.Tab.1.left" timestamp="1580652179520">
+    <state width="1323" height="382" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580716184782" />
+    <state width="1323" height="382" key="GridCell.Tab.1.left" timestamp="1580716184782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580652179520" />
-    <state width="1323" height="191" key="GridCell.Tab.1.right" timestamp="1580652179521">
+    <state width="1323" height="382" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580716184782" />
+    <state width="1323" height="382" key="GridCell.Tab.1.right" timestamp="1580716184782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580652179520" />
-    <state width="1323" height="191" key="GridCell.Tab.2.bottom" timestamp="1580652179521">
+    <state width="1323" height="382" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580716184782" />
+    <state width="1323" height="382" key="GridCell.Tab.2.bottom" timestamp="1580716184783">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580652179521" />
-    <state width="1323" height="191" key="GridCell.Tab.2.center" timestamp="1580652179521">
+    <state width="1323" height="382" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580716184783" />
+    <state width="1323" height="382" key="GridCell.Tab.2.center" timestamp="1580716184783">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1580652179521" />
-    <state width="1323" height="191" key="GridCell.Tab.2.left" timestamp="1580652179521">
+    <state width="1323" height="382" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1580716184783" />
+    <state width="1323" height="382" key="GridCell.Tab.2.left" timestamp="1580716184782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1580652179521" />
-    <state width="1323" height="191" key="GridCell.Tab.2.right" timestamp="1580652179521">
+    <state width="1323" height="382" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1580716184782" />
+    <state width="1323" height="382" key="GridCell.Tab.2.right" timestamp="1580716184783">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1580652179521" />
-    <state width="1323" height="191" key="GridCell.Tab.3.bottom" timestamp="1580652179521">
+    <state width="1323" height="382" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1580716184783" />
+    <state width="1323" height="174" key="GridCell.Tab.3.bottom" timestamp="1580715818399">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580652179521" />
-    <state width="1323" height="191" key="GridCell.Tab.3.center" timestamp="1580652179521">
+    <state width="1323" height="174" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580715818399" />
+    <state width="1323" height="174" key="GridCell.Tab.3.center" timestamp="1580715818399">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1580652179521" />
-    <state width="1323" height="191" key="GridCell.Tab.3.left" timestamp="1580652179521">
+    <state width="1323" height="174" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1580715818399" />
+    <state width="1323" height="174" key="GridCell.Tab.3.left" timestamp="1580715818399">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1580652179521" />
-    <state width="1323" height="191" key="GridCell.Tab.3.right" timestamp="1580652179521">
+    <state width="1323" height="174" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1580715818398" />
+    <state width="1323" height="174" key="GridCell.Tab.3.right" timestamp="1580715818399">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="191" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1580652179521" />
+    <state width="1323" height="174" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1580715818399" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1580200889089">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -391,6 +386,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/quan/service/impl/CategoryServiceImpl.java</url>
           <line>92</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/quan/service/impl/ShippingServiceImpl.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/quan/service/impl/ShippingServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/quan/service/impl/ShippingServiceImpl.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/quan/service/impl/ShippingServiceImpl.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
