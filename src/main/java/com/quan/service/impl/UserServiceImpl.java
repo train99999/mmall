@@ -7,12 +7,10 @@ import com.quan.dao.UserMapper;
 import com.quan.pojo.User;
 import com.quan.service.IUserService;
 import com.quan.util.MD5Util;
-import net.sf.jsqlparser.schema.Server;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.servlet.http.HttpSession;
 import java.util.UUID;
 
 @Service("iUserService")
