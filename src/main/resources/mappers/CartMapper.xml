@@ -41,7 +41,14 @@
   <select id="selectCartProductCount" resultType="java.lang.Integer">
     select IFNULL(sum(quantity),0) as count from mmall_cart where user_id = #{userId}
   </select>
-  <update id="checkedOrUncheckedProduct" parameterType="map">
+    <select id="selectCheckedCartByUserId" resultMap="BaseResultMap">
+      SELECT
+      <include refid="Base_Column_List"></include>
+       from mmall_cart
+       where user_id = #{userId}
+       and checked = 1
+    </select>
+    <update id="checkedOrUncheckedProduct" parameterType="map">
     UPDATE mmall_cart set checked = #{checked},update_time = now()
     where user_id = #{userId}
     <if test="productId != null">

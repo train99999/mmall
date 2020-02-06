@@ -53,6 +53,7 @@ public class FTPUtil {
                 // 开始上传文件
                 for(File fileItem : fileList ){
                     fis = new FileInputStream(fileItem);
+                    System.out.println(fileItem.getName());
                     ftpClient.storeFile(fileItem.getName(),fis);
                 }
             } catch (IOException e) {

@@ -25,4 +25,5 @@ public interface ShippingMapper {
     Shipping selectByShippingUserId(@Param("userId") Integer userId,@Param("shippingId") Integer shippingId);
 
     List<Shipping> selectByUserId(Integer userId);
+
 }
